@@ -24,7 +24,7 @@
     "docs": "typedoc src/index.tsx --plugin typedoc-plugin-markdown && concat-md --decrease-title-levels --dir-name-as-title docs > DOCUMENTATION.md"
   },
   "peerDependencies": {
-    "next": "^11.0.1",
+    "next": "^11.0.1 || ^12.0.0",
     "react": "^17.0.2"
   },
   "devDependencies": {
